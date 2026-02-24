@@ -80,7 +80,18 @@ const EventPlanner = () => {
             </section>
             {/* Section to provide contact information or a contact form */}
             <section className="contact">
-                {/* Contact content goes here */}
+                <h2>Contact Us</h2>
+                {/* Contact Form */}
+                <form>
+                    {/* Name input field */}
+                    <input type='text' placeholder='Name'/>
+                    {/* Email input field */}
+                    <input type='text' placeholder='Email'/>
+                    {/* Message Text area */}
+                    <textarea placeholder="Message"></textarea>
+                    {/* Submit button */}
+                    <button className='submit-button'>Submit</button>
+                </form>
             </section>
         </div>
 
